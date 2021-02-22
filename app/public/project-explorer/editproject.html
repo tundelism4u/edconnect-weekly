@@ -21,12 +21,13 @@
     </section>
 
     <section>
-        <form name="editProject">
+        <h2>Edit Project</h2>
+        <form name="editProject" required>
             <label>Project Name:</label><br /><input type="text" name="name" required><p></p>
             <label>Project Abstract:</label><br /><textarea type="text" name="abstract" required></textarea><p></p>
             <label>Authors:</label><br /><input type="text" name="authors" required><p></p>
             <label>Tag(s):</label><br /><input type="text" name="tags" required><p></p>
-            <label>Upload File</label><br /><input type="file" name="projectFile"><p></p>
+            <label>Upload File</label><br /><input type="file" name="projectFile" required><p></p>
             <input type="Submit" value="Submit">
 
         </form>
