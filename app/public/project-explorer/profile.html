@@ -9,11 +9,11 @@
             <a href="search.html">Projects</a>
             <a href="login.html">Login</a>
             <a href="register.html">Register</a>
-        </nav>
+        </nav> 
         <main>
             <section>
-                <h3>Wahab Semiu</h3><p></p>
-                Wahab.semiu@gmail.com <p></p>
+                <h3>Wahab Semiu</h3>
+                Wahab.semiu@gmail.com <p>
                 <ul>
                     <li>Program: Computer science</li>
                     <li>Matric: CS/HND/F19/1704</li>
@@ -24,19 +24,19 @@
             <section>
             <h2>Update Profile</h2>
             <form name="updateProfile">
-                <label>First Name:</label> <input type="text" name="firstName"><p></p>
-                <label>Last  Name:</label> <input type="text" name="lastName"><p></p>
-                <label>Email Address:</label> <input type="email" name="email"><p></p>
-                <label>Password:</label><input type="password" name="password"><label><p></p>
-                <label>Matric Number:</label> <input type="text" name="matricNumber"><p></p>
+                <label>First Name:</label> <input type="text" name="firstName" required><p></p>
+                <label>Last  Name:</label> <input type="text" name="lastName" required><p></p>
+                <label>Email Address:</label> <input type="email" name="email" required><p></p>
+                <label>Password:</label><input type="password" name="password" required><label><p></p>
+                <label>Matric Number:</label> <input type="text" name="matricNumber" required><p></p>
                 <label>Program:</label> 
-                <select name="program">
+                <select name="program" required>
                     <option value="computer_science">Computer Science</option>
                     <option value="computer_information_systems">Computer Information Systems</option>
                     <option value="computer_technology">Computer Technology</option>
                 </select><p></p>
                 <label>Graduation Year:</label> 
-                <select name="graduationYear">
+                <select name="graduationYear" required>
                     <option value="2013">2013</option>
                     <option value="2014">2014</option>
                     <option value="2015">2015</option>
@@ -53,9 +53,9 @@
             <section>
             <h2>Change Password</h2>
             <form name="changePassword">
-                <label>Current Password:</label><input type="password" name="currentPassword"><p></p>
-                <label>New Password:</label><input type="password" name="newPassword"><label><p></p>
-                <label>Confirm Password:</label><input type="password" name="confirmPassword"><label><p></p>
+                <label>Current Password:</label><input type="password" name="currentPassword" required><p></p>
+                <label>New Password:</label><input type="password" name="newPassword" required><label><p></p>
+                <label>Confirm Password:</label><input type="password" name="confirmPassword" required><label><p></p>
                 <input type="Submit" value="Submit">
             </form>
             </section>
